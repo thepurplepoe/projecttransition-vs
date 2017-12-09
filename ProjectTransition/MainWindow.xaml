@@ -1,0 +1,20 @@
+﻿<Window x:Class="ProjectTransition.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectTransition"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="ReadButton" Content="Read" HorizontalAlignment="Left" Margin="432,289,0,0" VerticalAlignment="Top" Width="75" Click="ReadButton_Click"/>
+        <Label x:Name="OutputLabel" Content="Output" HorizontalAlignment="Left" Height="70" Margin="10,10,0,0" VerticalAlignment="Top" Width="311"/>
+        <Button x:Name="FileASelect" Content="Select File A" HorizontalAlignment="Left" Margin="432,116,0,0" VerticalAlignment="Top" Width="75" Click="FileASelect_Click"/>
+        <Button x:Name="FileBSelect" Content="Select File B" HorizontalAlignment="Left" Margin="432,161,0,0" VerticalAlignment="Top" Width="75" Click="FileBSelect_Click"/>
+        <TextBox x:Name="FileNameA" HorizontalAlignment="Left" Height="20" Margin="21,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="406"/>
+        <TextBox x:Name="FileNameB" HorizontalAlignment="Left" Height="20" Margin="21,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="406"/>
+        <Button x:Name="FileOutSelectButton" Content="Select Out" HorizontalAlignment="Left" Margin="432,243,0,0" VerticalAlignment="Top" Width="75" Click="FileOutSelectButton_Click"/>
+        <TextBox x:Name="FileNameOutput" HorizontalAlignment="Left" Height="20" Margin="21,243,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="406"/>
+
+    </Grid>
+</Window>
